@@ -1,0 +1,15 @@
+# Ignorar archivos y directorios generados automáticamente
+node_modules/
+dist/
+.vscode/
+
+# Ignorar archivos de configuración y secretos
+.env
+.env.*
+config.js
+
+# Ignorar archivos de respaldo de editor
+*~
+.DS_Store
+#Imagenes locales del proyecto
+/image/
