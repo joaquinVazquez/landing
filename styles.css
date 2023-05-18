@@ -1,0 +1,123 @@
+:root{
+    --green-primary: #01BA80;
+    --green-light: #00E099;
+    --green-dark: #003B27;
+    --black-primary: #222C38;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'IBM Plex Serif', serif;
+    color: white;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+h1{
+    font-size: 30px;
+    font-weight: 600;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+h1{
+    font-size: 25px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+}
+p{
+    font-size: 30px;
+    margin: 10px 0;
+}
+img{
+    width: 100%;
+}
+li{
+    list-style-type: none;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1200px;
+    overflow: visible;
+}
+.navbar{
+    background-color: var(--green-primary);
+    height: 70px;
+    padding: 0 30px;
+}
+.navbar h1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin: 10px 0;
+    line-height: 1.2;
+  }
+  .navbar .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  .navbar ul {
+    display: flex;
+  }
+  .navbar a {
+    color: white;
+    padding: 9px;
+    margin: 0 10px;
+  }
+  .navbar a:hover {
+    color: var(--green-dark);
+    border-bottom: 3px solid var(--green-dark);
+  }
+  .showcase{
+    height: 300;
+    background-color: var(--black-primary);
+  }
+  .showcase p{
+    margin-bottom: 30px;
+  }
+  .showcase img{
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+  }
+  .showcase-form{
+    padding-left: 7px;
+  }
+  .grid{
+    overflow: visible;
+    display: grid;
+    grid-template-columns: 60% 40%;
+  }
+  .grid-item-1,
+  .grid-item-2{
+    position: relative;
+    top: 50x;
+  }
+  .showcase input[type='email'] {
+    padding: 10px 70px 10px 0;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 6px;
+  }
+  .btn {
+    border-radius: 6px;
+    padding: 12px 20px;
+    background: var(--green-primary);
+    border: none;
+    margin-left: 10px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+  }
+  .showcase-form {
+    margin: auto;
+  }
+  .little-info {
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+  }
