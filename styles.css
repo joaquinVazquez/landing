@@ -206,3 +206,24 @@ li{
   .stats .fa {
     color: var(--green-primary);
   }
+footer {
+    background-color: var(--green-primary);
+    padding: 20px 10px;
+}  
+footer a {
+    color: white;
+    margin: 0 10px;
+}
+footer a:hover {
+    color: var(--green-dark);
+    border-bottom: 2px solid var(--green-dark);
+  }
+.grid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+footer .image-container #logo{
+  width: 100%;
+}
+  
